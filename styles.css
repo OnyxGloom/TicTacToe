@@ -1,0 +1,145 @@
+@font-face {
+    font-family: Gunny;
+    src: url("./Assets/Font/Gunny Rewritten/gnyrwn977.otf") format("opentype");
+  }
+
+body {
+    font-family: Gunny;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Assets/Background/1.jpg);
+    padding: 0%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px;
+    border-style: dashed;
+    height: 10vh;
+    font-size: 40pt;
+    margin-bottom: 0;
+    width: 100vw;
+    max-width: 1110px;
+  }
+
+
+.game_space {
+    background-image: url(./Assets/Background/1.jpg);
+    height: 75vw;
+    max-height: 866px;
+    width: 100vw;
+    max-width: 1110px;
+    padding: 0px;
+    border: 0px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 90%;
+}
+
+.columns {
+    padding-top: 5%;
+}
+
+#c1 {
+
+}
+
+#c2{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 85% 5%;
+}
+
+.main_board{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.game_square{
+    border-style: solid;
+
+}
+
+#topleft{
+    display: flex;
+    border-top: 0;
+    border-left: 0;
+}
+#topmiddle{
+    display: flex;
+    border-top: 0;
+
+}
+#topright{
+    display: flex;
+    border-top: 0;
+    border-right: 0;
+}
+#middleleft{
+    display: flex;
+    border-left: 0;
+
+}
+#middlemiddle{
+    display: flex;
+
+}
+#middleright{
+    display: flex;
+    border-right: 0;
+}
+#bottomleft{
+    display: flex;
+    border-left: 0;
+    border-bottom: 0;
+}
+#bottommiddle{
+    display: flex;
+    border-bottom: 0;
+}
+#bottomright{
+    display: flex;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.game_type{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0;
+    padding-top: 20pt;
+    font-size: 20pt;
+}
+
+.btn {
+    padding: 20px;
+}
+
+#pve{
+
+}
+
+#pvp{
+    
+}
+
+.reset{
+    width: 10vw;
+    height: 7.5vw;
+}
+
+
+#c3{
+
+}
